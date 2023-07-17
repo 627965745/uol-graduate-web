@@ -39,6 +39,15 @@ const AddStudent = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        const regex = /\S+@\S+\.\S+/;
+        if (!regex.test(newStudent.email)) {
+            alert("Please enter a valid email.");
+            return;
+        }
+        if (newStudent.subjects.length < 1) {
+            alert("Please Select at least one subject.");
+            return;
+        }
         console.log(newStudent);
     };
 
@@ -106,7 +115,7 @@ const AddStudent = () => {
                 <div className="mb-1">
                     <label>Select up to 2 Subjects</label>
                 </div>
-                <div className="d-flex-wrap justify-content-between mb-3">
+                <div className="d-flex-wrap mb-3">
                     <label className="me-2">
                         <input
                             type="checkbox"
