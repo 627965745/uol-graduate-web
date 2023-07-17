@@ -189,6 +189,9 @@ const StudentTable = () => {
         <div>
             <div className="d-flex justify-content-between align-items-center">
                 <h1>Student List</h1>
+                <button type="button" className="btn btn-primary" onClick={() => {navigate('/courses')}}>
+                    CourseList
+                </button>
                 <button type="button" className="btn btn-primary" onClick={() => {navigate('/addstudent')}}>
                     Add Student
                 </button>
