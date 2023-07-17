@@ -28,9 +28,9 @@ Please use "/" to view the student list, "/addstudent" to add students and "/cou
 ### Example screenshot
 
 
-![image](https://github.com/627965745/uol-graduate-web/assets/25855932/85602368-72c4-46ac-a7e3-9d54f981c4bc)
+![image](https://github.com/627965745/uol-graduate-web/assets/25855932/a56c8901-7fa8-41a7-9733-c1f5f773bb79)
 
-![image](https://github.com/627965745/uol-graduate-web/assets/25855932/83c71438-5ff5-4176-983e-bbe1bc0c28de)
+![image](https://github.com/627965745/uol-graduate-web/assets/25855932/f444c3c6-c61e-4633-9470-5d7b004c823a)
 
 ![image](https://github.com/627965745/uol-graduate-web/assets/25855932/e75bc4b9-2fb9-45c1-907b-57028ff9d99b)
 
